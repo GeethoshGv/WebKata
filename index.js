@@ -185,3 +185,14 @@ comment.innerHTML = "I am JavaScript";
 const ptag = (document.body.innerHTML = '<p id="addition"></p>');
 const add = 5 + 6;
 document.getElementById("addition").innerText = add;
+
+//Declare three variables a, b, and c and assign a with 10 and b with 20 and give addition of a and b to c. Display the result in paragraph tag as "C = 30".
+
+const ptag1 = (document.body.innerHTML = '<p id="result"></p>');
+
+const arr1 = [10, 20];
+
+const [a, b] = arr1;
+const c = a + b;
+
+document.getElementById("result").innerText = "C = " + c;
