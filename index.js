@@ -128,4 +128,20 @@ const pp = document.getElementById("demo");
 pp.innerHTML = Math.ceil(4.4);
 
 //======================15==================
-function compare() {}
+
+function compare() {
+  const one = parseInt(document.getElementById("in1").value);
+  const two = parseInt(document.getElementById("in2").value);
+
+  if (one < two) {
+    document.getElementById("result").innerHTML = Boolean(1);
+  } else {
+    document.getElementById("result").innerHTML = Boolean(0);
+  }
+}
+
+//   Change the colour of the element with id name as "changeMeToBlue" to blue colour by using Java Script.
+
+const colorchange = document.getElementById("changeMeToBlue");
+
+colorchange.style = "color:blue";
