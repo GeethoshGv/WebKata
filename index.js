@@ -205,3 +205,12 @@ const string = "Hello";
 const One = 1;
 
 Print.innerHTML = string + One;
+
+//Print the numbers from 1 to 5 using Javascript using for loop(give space between each number))
+
+const p = document.getElementById("demo");
+let gap = " ";
+for (let i = 1; i <= 5; i++) {
+  gap += i + " ";
+}
+p.innerText = gap;
