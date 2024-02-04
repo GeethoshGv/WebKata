@@ -167,3 +167,9 @@ color.forEach(function (color) {
 var color = document.querySelector(".blue-rectangle");
 
 color.style.backgroundColor = "blue";
+
+//In the display, "Hello by HTML" is hidden using JavaScript. Show the hidden elements using JavaScript.
+
+const show = document.getElementById("hello");
+
+show.style = "display:block";
