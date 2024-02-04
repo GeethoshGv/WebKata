@@ -161,3 +161,9 @@ var color = document.querySelectorAll(".changeMeToBlue");
 color.forEach(function (color) {
   color.style.backgroundColor = "blue";
 });
+
+//Change the background colour of the given rectangle to blue color using JavaScript
+
+var color = document.querySelector(".blue-rectangle");
+
+color.style.backgroundColor = "blue";
