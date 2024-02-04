@@ -153,3 +153,11 @@ var size = document.querySelectorAll(".increase");
 size.forEach(function (size) {
   size.style.fontSize = "30px";
 });
+
+//Change the background colour of all the elements with class name as "changeMeToBlue" to blue colour by using Java Script.
+
+var color = document.querySelectorAll(".changeMeToBlue");
+
+color.forEach(function (color) {
+  color.style.backgroundColor = "blue";
+});
