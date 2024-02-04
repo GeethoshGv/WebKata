@@ -179,3 +179,9 @@ show.style = "display:block";
 const comment = document.getElementById("insert");
 
 comment.innerHTML = "I am JavaScript";
+
+//Display addition of 5 and 6 with a paragraph element with id name as "addition" using JavaScript
+
+const ptag = (document.body.innerHTML = '<p id="addition"></p>');
+const add = 5 + 6;
+document.getElementById("addition").innerText = add;
