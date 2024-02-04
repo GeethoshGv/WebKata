@@ -196,3 +196,12 @@ const [a, b] = arr1;
 const c = a + b;
 
 document.getElementById("result").innerText = "C = " + c;
+
+//Assign "Hello" to a string variable, 1 to a variable, print both in same line using Java Script
+
+const Print = document.getElementById("demo");
+
+const string = "Hello";
+const One = 1;
+
+Print.innerHTML = string + One;
