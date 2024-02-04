@@ -214,3 +214,13 @@ for (let i = 1; i <= 5; i++) {
   gap += i + " ";
 }
 p.innerText = gap;
+
+//Given a array, sort the array in Ascending order and print, using Javascript array=[40, 100, 1, 5, 25, 10]; Example(array=[5,4,3,2,1] sorted array 1,2,3,4,5 in p tag)
+
+const array = [40, 100, 1, 5, 25, 10];
+
+const uu = array.sort(function (a, b) {
+  return a - b;
+});
+
+document.getElementById("demo").innerText = uu;
