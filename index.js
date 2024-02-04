@@ -145,3 +145,11 @@ function compare() {
 const colorchange = document.getElementById("changeMeToBlue");
 
 colorchange.style = "color:blue";
+
+//Increase the font size of all the elements with class name as "increase" to 30px using JavaScript.
+
+var size = document.querySelectorAll(".increase");
+
+size.forEach(function (size) {
+  size.style.fontSize = "30px";
+});
