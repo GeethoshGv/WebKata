@@ -173,3 +173,9 @@ color.style.backgroundColor = "blue";
 const show = document.getElementById("hello");
 
 show.style = "display:block";
+
+//Insert "I am JavaScript" to the paragraph tag with id name as insert
+
+const comment = document.getElementById("insert");
+
+comment.innerHTML = "I am JavaScript";
